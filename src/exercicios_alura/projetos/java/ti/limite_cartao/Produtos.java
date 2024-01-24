@@ -38,7 +38,7 @@ public class Produtos extends Dados implements Comparable<Produtos>{
         this.valorItem = valorItem;
     }
 
-    @Override
+    @Override // função organizar de forma crescente os valores.
     public int compareTo(Produtos outroProduto) {
         return Double.valueOf(this.valorItem).compareTo(Double.valueOf(outroProduto.valorItem));
     }

@@ -38,7 +38,7 @@ public class Main {
         } while (decisao == 1 && valorAtual > 0);
         System.out.println("********************************************");
         System.out.println("************ COMPRAS REALIZADAS ************");
-        Collections.sort(comprador.getProdutos());
+        Collections.sort(comprador.getProdutos()); // -> funçãopara organizar de forma crecsente os produtos em ordem de valor!
         for (Produtos produto : comprador.getProdutos()){
             System.out.println(produto.getItem() + " R$ " + produto.getValorItem());
             valorTotal = valorTotal + produto.getValorItem();
