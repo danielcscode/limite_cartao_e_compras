@@ -3,7 +3,7 @@ package exercicios_alura.projetos.java.ti.limite_cartao;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Produtos extends Dados{
+public class Produtos extends Dados implements Comparable<Produtos>{
     private String item;
     private double valorItem;
     private List<Produtos> produtos; // -> Necessario a crescimo do List<+ a classe> e a variavel.
@@ -38,5 +38,8 @@ public class Produtos extends Dados{
         this.valorItem = valorItem;
     }
 
-
+    @Override
+    public int compareTo(Produtos outroProduto) {
+        return Double.valueOf(this.valorItem).compareTo(Double.valueOf(outroProduto.valorItem));
+    }
 }

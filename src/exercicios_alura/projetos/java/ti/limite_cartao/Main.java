@@ -1,5 +1,6 @@
 package exercicios_alura.projetos.java.ti.limite_cartao;
 
+import java.util.Collections;
 import java.util.Scanner;
 
 public class Main {
@@ -37,7 +38,7 @@ public class Main {
         } while (decisao == 1 && valorAtual > 0);
         System.out.println("********************************************");
         System.out.println("************ COMPRAS REALIZADAS ************");
-
+        Collections.sort(comprador.getProdutos());
         for (Produtos produto : comprador.getProdutos()){
             System.out.println(produto.getItem() + " R$ " + produto.getValorItem());
             valorTotal = valorTotal + produto.getValorItem();

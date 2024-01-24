@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfd341e9-4936-42f2-867c-f952bcf56062" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/limite_cartao.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicios_alura/projetos/java/ti/limite_cartao/Dados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicios_alura/projetos/java/ti/limite_cartao/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicios_alura/projetos/java/ti/limite_cartao/Produtos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios_alura/projetos/java/ti/limite_cartao/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios_alura/projetos/java/ti/limite_cartao/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios_alura/projetos/java/ti/limite_cartao/Produtos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios_alura/projetos/java/ti/limite_cartao/Produtos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2bPSapUJyLkx27q6Rc8I8hYGivM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -46,8 +39,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/danie/OneDrive/Documentos/TI/Java/Projetos/exercicios_alura/limite_cartao_e_compras",
     "onboarding.tips.debug.path": "C:/Users/danie/OneDrive/Documentos/TI/Java/Projetos/exercicios_alura/limite_cartao/src/Main.java"
   }
 }]]></component>
